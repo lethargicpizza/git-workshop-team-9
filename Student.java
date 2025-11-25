@@ -8,4 +8,11 @@ public class Student {
         this.phone = phone;
         this.testName = testName;
     }
+
+    @Override
+    public String toString() {
+        return "Student: " + name +
+                ", phone: " + phone +
+                ", testName: " + testName;
+    }
 }
