@@ -1,9 +1,9 @@
-[200~public class Student {
+public class Student {
     private String name;
-    private String email;  // Person A lägger till email
+    private String phone;  // Person B lägger till phone
 
-    public Student(String name, String email) {
+    public Student(String name, String phone) {
         this.name = name;
-        this.email = email;
+        this.phone = phone;
     }
 }
